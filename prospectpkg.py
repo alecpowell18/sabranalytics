@@ -248,7 +248,7 @@ with open(inputfile_name,'r') as inputF:
 					pv = player_value_raw(prospects_to_use)
 					output.append((player_name, pv))
 					# print recent_stats
-				else: print "SHIT."
+				else: print "not found."
 inputF.close()
 prospect_db.close()
 outputfile_name = str(sys.argv[2])
